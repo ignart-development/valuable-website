@@ -1,0 +1,51 @@
+<div class="container py-5">
+    <div class="row">
+        <div class="col-lg-4 mb-5">
+            <h2 class="text-white">{{ block_title }}</h2>
+        </div>
+        <div class="col-lg-8">
+            <div class="row">
+                <div class="col-12 mb-5">
+                    <div class="description">
+                        <p class="p-big text-white">
+                            {{ description }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="row">
+                    {{ single_testimonials_block }}
+                        <div class="col-12 col-lg-6 mb-5">
+                            <div class="testimonial-card d-flex h-100">
+                                <div class="d-flex align-items-end">
+                                    <div class="quote-icon">
+                                        <svg width="14px" height="11px" viewBox="0 0 14 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <g id="valuable-design" transform="translate(-836.000000, -1780.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                                    <g id="clients" transform="translate(120.000000, 1589.000000)">
+                                                        <g id="Group" transform="translate(400.000000, 161.000000)">
+                                                            <path d="M316,30 L316,35.6 L319.15,35.6 L319.15,36.1140625 C319.15,36.7186525 318.280804,37.7 317.3125,37.7 L316,37.7 L316,40.15 L316.842188,40.15 C319.479229,40.15 321.6,38.014685 321.6,35.359375 L321.6,30 L316,30 Z M324.4,30 L324.4,35.6 L327.55,35.6 L327.55,36.1140625 C327.55,36.7186525 326.680804,37.7 325.7125,37.7 L324.4,37.7 L324.4,40.15 L325.242188,40.15 C327.879229,40.15 330,38.014685 330,35.359375 L330,30 L324.4,30 Z" id="quote"></path>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h5 class="title text-white">{{ client_name }}</h5>
+                                        <p class="p-small text-light mb-0">
+                                            {{ client_testimonial }}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {{ /single_testimonials_block }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

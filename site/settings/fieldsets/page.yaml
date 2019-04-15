@@ -1,0 +1,245 @@
+sections:
+  main:
+    display: Main
+    fields:
+      page_header:
+        type: section
+        display: 'Page header'
+      full_screen_header:
+        type: toggle
+        display: 'Full screen header'
+        width: 33
+      header_on:
+        type: toggle
+        width: 33
+        display: 'Header ON/OFF'
+        default: 'true'
+      page_title:
+        type: text
+        display: 'Page title'
+        width: 75
+      text_background_image:
+        type: toggle
+        width: 25
+        display: 'Text background image'
+      page_subtitle:
+        type: text
+        display: 'Page subtitle'
+        width: 50
+      longer_page_subtitle:
+        restrict_assets: false
+        type: redactor
+        width: 50
+        display: 'Longer page subtitle'
+      background_color:
+        type: text
+        display: 'Background color'
+      button_title:
+        type: text
+        width: 50
+        display: 'Button title'
+      button_link:
+        type: text
+        width: 50
+        display: 'Button link'
+      preview_image:
+        container: main
+        folder: /
+        restrict: false
+        type: assets
+        display: 'Preview image'
+      blocks:
+        sets:
+          works:
+            display: Works
+            fields:
+              block_title:
+                type: text
+                display: 'Block title'
+              button_title:
+                type: text
+                width: 50
+                display: 'Button title'
+              button_link:
+                type: pages
+                width: 50
+                display: 'Button link'
+              single_work_block:
+                sets:
+                  single_work_block:
+                    display: 'Single work block'
+                    fields:
+                      photos:
+                        container: main
+                        folder: /
+                        restrict: false
+                        type: assets
+                        display: Photos
+                      title:
+                        type: text
+                        display: Title
+                      description:
+                        type: textarea
+                        display: Description
+                      link_collection:
+                        collection:
+                          - works
+                        type: collection
+                        display: 'Link collection'
+                type: replicator
+                display: 'Single work block'
+          testimonials:
+            display: Testimonials
+            fields:
+              block_title:
+                type: text
+                display: 'Block title'
+              description:
+                type: text
+                display: Description
+              single_testimonials_block:
+                sets:
+                  single_testimonials_block:
+                    display: 'single testimonial block'
+                    fields:
+                      client_name:
+                        type: text
+                        display: 'Client name'
+                      client_testimonial:
+                        type: text
+                        display: 'Client testimonial'
+                type: replicator
+                display: 'Testimonials block'
+          contacts:
+            display: Contacts
+            fields:
+              block_title:
+                type: text
+                display: 'Block title'
+              description:
+                type: text
+                display: Description
+              contact_block:
+                sets:
+                  contact_block:
+                    display: 'Contact block'
+                    fields:
+                      contact_who:
+                        type: text
+                        display: 'Contact who'
+                      button_title:
+                        type: text
+                        width: 50
+                        display: 'Button title'
+                      button_link:
+                        type: text
+                        width: 50
+                        display: 'Button link'
+                type: replicator
+                display: 'Contact block'
+          text:
+            display: Text
+            fields:
+              background_color:
+                type: text
+                display: 'Background color'
+              text_block:
+                sets:
+                  text_block:
+                    display: 'Text Block'
+                    fields:
+                      title:
+                        type: text
+                        display: Title
+                      description:
+                        type: textarea
+                        display: Description
+                type: replicator
+                display: 'Text Block'
+          image:
+            display: Image
+            fields:
+              container_image:
+                sets:
+                  container_image:
+                    display: 'Container image'
+                    fields:
+                      top_padding:
+                        type: toggle
+                        display: 'Top padding'
+                        default: 'true'
+                      background_color:
+                        type: text
+                        display: 'Background color'
+                      photos:
+                        container: main
+                        folder: /
+                        restrict: false
+                        type: assets
+                        display: Photos
+                type: replicator
+                display: 'Container image'
+              container_fluid_image:
+                sets:
+                  container_fluid_image:
+                    display: 'Container fluid image'
+                    fields:
+                      top_padding:
+                        type: toggle
+                        display: 'Top padding'
+                        default: 'true'
+                      background_color:
+                        type: text
+                        display: 'Background color'
+                      photos:
+                        container: main
+                        folder: /
+                        restrict: false
+                        type: assets
+                        display: Photos
+                type: replicator
+                display: 'Container fluid image'
+          quote:
+            display: Quote
+            fields:
+              quote_block:
+                sets:
+                  quote_block:
+                    display: 'Quote block'
+                    fields:
+                      background_color:
+                        type: text
+                        display: 'Background color'
+                      quote_text:
+                        type: textarea
+                        display: 'Quote text'
+                      client_photo:
+                        container: main
+                        folder: /
+                        restrict: false
+                        type: assets
+                        display: 'Client photo'
+                      client_name:
+                        type: text
+                        width: 50
+                        display: 'Client name'
+                      client_position:
+                        type: text
+                        width: 50
+                        display: 'Client position'
+                type: replicator
+                display: 'Quote block'
+          contact_form:
+            display: 'Contact form'
+            fields: {  }
+        type: replicator
+        display: Content
+  seo:
+    display: SEO
+    fields:
+      seo:
+        fieldset: seo
+        type: partial
+        display: SEO
+taxonomies: true
+title: Page

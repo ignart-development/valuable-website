@@ -1,0 +1,42 @@
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-8">
+
+            {{ form:create in="contact" }}
+
+            {{ if success }}
+            <div class="alert alert-success">
+                Form was submitted successfully. We will reply ASAP!
+            </div>
+            {{ /if }}
+
+            <div class="form-group">
+            <input class="form-control" type="text" name="name" value="{{ old:name }}" placeholder="What's your name?" required/>
+            </div>
+
+            <div class="form-group">
+            <input class="form-control" type="email" name="email" value="{{ old:email }}" placeholder="Your email address" required/>
+            </div>
+
+            <div class="form-group mb-5">
+                <textarea onkeyup="textAreaAdjust(this)" style="overflow:hidden" class="form-control" name="message" placeholder="Tell us about your project" required/>{{ old:message }}</textarea>
+            </div>
+
+            <button type="submit" class="btn btn-lined">
+                Send
+                <svg class="ml-2" width="6px" height="10px" viewBox="0 0 6 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="valuable-design" transform="translate(-784.000000, -500.000000)" stroke="#FFFFFF" stroke-width="1.2">
+                            <g id="btn-lined" transform="translate(651.000000, 493.000000)">
+                                <polyline id="arrow" points="134.183762 7.4556029 137.695587 11.7172062 134.183762 15.9788095"></polyline>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </button>
+
+            {{ /form:create }}
+
+        </div>
+    </div>
+</div>
