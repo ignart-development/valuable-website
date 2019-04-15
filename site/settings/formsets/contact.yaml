@@ -1,28 +1,12 @@
-title: Contact Me
-
+title: Contact
 fields:
   name:
-    display: Name
-    validate: required|min:2
+    display: 'What''s your name?'
   email:
-    display: Email Address
-    validate: required|email
-  number:
-    display: Favorite Number
-    validate: integer
-  comment:
-    display: Comment
-
-metrics:
-  -
-    type: total
-    label: Total Responses
-  -
-    type: sum
-    field: number
-    label: Sum of Favorite Number
-  -
-    type: average
-    field: number
-    label: Average Favorite Number
-    precision: 1
+    display: 'Your email address'
+  message:
+    display: 'Tell us about your project'
+columns:
+  - name
+  - email
+  - message

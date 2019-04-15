@@ -1,0 +1,28 @@
+{{ container_image }}
+<div style="background: {{ background_color }}">
+<div class="container {{ if top_padding }}pt-lg-big pt-5 {{ /if }}">
+    <div class="row">
+        <div class="col">
+            {{ assets:photos }}
+            <img class="img-fluid" src="{{ url }}">
+            {{ /assets:photos }}
+        </div>
+    </div>
+</div>
+</div>
+{{ /container_image }}
+
+{{ container_fluid_image }}
+<div style="background: {{ background_color }}">
+    <div class="container-fluid {{ if top_padding }}pt-lg-big  pt-5{{ /if }}">
+        <div class="row">
+            <div class="col p-0">
+                {{ assets:photos }}
+                <img class="img-fluid" src="{{ url }}">
+                {{ /assets:photos }}
+            </div>
+        </div>
+    </div>
+</div>
+{{ /container_fluid_image }}
+
