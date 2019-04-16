@@ -65,6 +65,6 @@ blocks:
         button_title: hello@valuable.lt
         button_link: 'mailto:hello@valuable.lt'
 meta_description: 'creative agency'
-title: Home
+title: Home.
 fieldset: page
 id: ead7200e-39b7-4b61-afbb-27ce1499708b
