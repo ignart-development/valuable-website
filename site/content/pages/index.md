@@ -1,6 +1,6 @@
 full_screen_header: true
 header_on: true
-page_title: 'Make it valuable'
+page_title: 'Make it valuable.'
 text_background_image: true
 page_subtitle: 'We are here to help you increase value of your startup'
 button_title: 'Let''s have a chat'
