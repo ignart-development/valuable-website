@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01a9d612-0c8b-4bc3-bba1-594e42e51891" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/site/themes/valuable-design/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/themes/valuable-design/partials/footer.html" afterDir="false" />
-    </list>
+    <list default="true" id="01a9d612-0c8b-4bc3-bba1-594e42e51891" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -168,31 +166,7 @@
             <path>
               <item name="valuable-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="valuable-website" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="valuable-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="valuable-website" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="valuable-design" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="valuable-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="valuable-website" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="valuable-design" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="valuable-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="valuable-website" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="valuable-design" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
+              <item name="statamic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -238,16 +212,15 @@
       <option name="presentableId" value="Default" />
       <updated>1555440108419</updated>
       <workItem from="1555440109617" duration="1495000" />
-      <workItem from="1555516308089" duration="521000" />
+      <workItem from="1555516308089" duration="991000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2016000" />
+    <option name="totallyTimeSpent" value="2486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -329,6 +302,9 @@
           <caret line="47" column="101" selection-start-line="47" selection-start-column="101" selection-end-line="47" selection-end-column="101" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/content/globals/global.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/site/themes/valuable-design/partials/footer.html">
       <provider selected="true" editor-type-id="text-editor">

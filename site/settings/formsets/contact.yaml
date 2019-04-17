@@ -10,7 +10,3 @@ columns:
   - name
   - email
   - message
-metrics:
-  -
-    type: total
-    label: ''
