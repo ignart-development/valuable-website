@@ -13,4 +13,6 @@ columns:
 email:
   -
     to: hello@valuable.lt
-    subject: '{{ message }}'
+    from: hello@valuable.lt
+    subject: You've got fan mail!
+    template: fan-mail
