@@ -1,3 +1,8 @@
-driver: log
+driver: smtp
 from_email: hello@valuable.lt
 from_name: valuable.
+host: purplelis.serveriai.lt
+port: '465'
+encryption: tls
+username: hello@valuable.lt
+password: XU038Mpp3NsPfL
