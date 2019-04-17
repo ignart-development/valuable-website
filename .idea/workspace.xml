@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01a9d612-0c8b-4bc3-bba1-594e42e51891" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/site/themes/valuable-design/layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/themes/valuable-design/layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/themes/valuable-design/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/themes/valuable-design/partials/footer.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="default.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/themes/valuable-design/layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="339">
               <caret line="47" column="101" selection-start-line="47" selection-start-column="101" selection-end-line="47" selection-end-column="101" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/site/themes/valuable-design/partials/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -34,6 +43,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/site/themes/valuable-design/layouts/default.html" />
+        <option value="$PROJECT_DIR$/site/themes/valuable-design/partials/footer.html" />
       </list>
     </option>
   </component>
@@ -176,6 +186,14 @@
               <item name="valuable-design" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="valuable-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="valuable-website" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="valuable-design" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -220,12 +238,12 @@
       <option name="presentableId" value="Default" />
       <updated>1555440108419</updated>
       <workItem from="1555440109617" duration="1495000" />
-      <workItem from="1555516308089" duration="385000" />
+      <workItem from="1555516308089" duration="521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1880000" />
+    <option name="totallyTimeSpent" value="2016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -309,6 +327,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="47" column="101" selection-start-line="47" selection-start-column="101" selection-end-line="47" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/themes/valuable-design/partials/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
         </state>
       </provider>
     </entry>
