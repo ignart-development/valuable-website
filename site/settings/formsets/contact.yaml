@@ -10,9 +10,3 @@ columns:
   - name
   - email
   - message
-email:
-  -
-    to: hello@valuable.lt
-    from: hello@valuable.lt
-    subject: You've got fan mail!
-    template: fan-mail
