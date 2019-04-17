@@ -10,3 +10,7 @@ columns:
   - name
   - email
   - message
+email:
+  -
+    to: hello@valuable.lt
+    subject: '{{ message }}'
