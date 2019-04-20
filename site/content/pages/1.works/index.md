@@ -1,5 +1,5 @@
 full_screen_header: false
-header_on: true
+header_on: false
 page_title: Works
 text_background_image: true
 page_subtitle: 'Here is what we increased a value on'
