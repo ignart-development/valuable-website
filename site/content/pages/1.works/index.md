@@ -48,7 +48,7 @@ blocks:
         type: contact_block
         contact_who: 'New Business'
         button_title: 'Still wondering? Let''s get started'
-        button_link: '#'
+        button_link: /contact
       -
         type: contact_block
         contact_who: 'General Inquires'
