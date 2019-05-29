@@ -10,6 +10,14 @@ blocks:
       -
         type: single_work_block
         photos:
+          - /assets/intsane-preview.jpg
+        title: Intsane
+        description: 'Grow your instagram audience up to 100,000 followers per month.'
+        link_collection:
+          - fa86b19b-7240-4905-9b89-09b99e46ef22
+      -
+        type: single_work_block
+        photos:
           - /assets/chrg-network-preview.jpg
         title: 'CHRG Network'
         description: 'Electric vehicle charging platform that connects all charging stations into a single network.'

@@ -14,19 +14,19 @@ blocks:
       -
         type: single_work_block
         photos:
-          - /assets/chrg-network-preview.jpg
-        title: 'CHRT Network'
-        description: 'Electric vehicle charging platform that connects all charging stations into a single network.'
+          - /assets/intsane-preview.jpg
+        title: Intsane
+        description: 'Grow your instagram audience up to 100,000 followers per month.'
         link_collection:
-          - 8d4f17cd-768a-4ec9-a26d-214071768e26
+          - fa86b19b-7240-4905-9b89-09b99e46ef22
       -
         type: single_work_block
         photos:
-          - /assets/shakesnack-preview.jpg
-        title: Shakesnack
-        description: 'Sushi restaurant located in Vilnius, Lithuania.'
+          - /assets/chrg-network-preview.jpg
+        title: 'CHRG Network'
+        description: 'Electric vehicle charging platform that connects all charging stations into a single network.'
         link_collection:
-          - 28154104-eb61-4dba-b28a-7042a951fcd8
+          - 8d4f17cd-768a-4ec9-a26d-214071768e26
     block_title: 'Here is what we increased a value on'
     button_link:
       - 9c9602fb-21a5-4d57-888a-0525ea38f766
